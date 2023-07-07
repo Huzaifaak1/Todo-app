@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="containerr">
+      <nav>
+        <img src="list.png" alt="">
+        <h2>TODO LIST</h2>
+      </nav>
+      <main >
+        <div class="addItemSection" style="border: 2px solid gray; padding: 10px 23px;">
+          <label for="title">TODO Title</label>
+          <div>
+            <input type="text" name="title" id="title" />
+          </div>
+          <label for="desc">TODO Description</label>
+          <div>
+            <input type="text" name="desc" id="desc" />
+          </div>
+          <div id="btnBox">
+            <button class="btn btn-success">Add</button>
+          </div>
+          <div id="addContent">
+            
+            
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
